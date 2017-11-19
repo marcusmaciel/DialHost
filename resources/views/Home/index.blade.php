@@ -116,6 +116,8 @@ técnica para ser a solução dos problemas que ela enfrenta.
             <div class="col-md-4">
             <i class="ion-ios-cart"></i>
             <h3>Faça vendas.</h3>
+            <p>
+            Personalize a aparência e o clima da sua loja. Escolha entre centenas de templates profissionais e altere tudo que desejar para criar seu site de vendas online. Apenas arraste e solte. Nós cuidamos da programação.</p>
             </div>
         </div>
     </div>

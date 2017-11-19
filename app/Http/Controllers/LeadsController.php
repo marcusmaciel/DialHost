@@ -37,10 +37,10 @@ class LeadsController extends Controller
     public function store(Request $request)
     {
         //Criar o lead 
-        //$validator = Validator::make(Input::all(), $this->rules);
-        //if ($validator->fails()) {
-         //   return Response::json(array('errors' => $validator->getMessageBag()->toArray()));
-       // } else {
+        $validator = Validator::make(Input::all(), $this->rules);
+        if ($validator->fails()) {
+           return Response::json(array('errors' => $validator->getMessageBag()->toArray()));
+        } else {
             $dados = $request->all();
             //$lead = Leads::create($dados);
             if($dados){
@@ -78,6 +78,6 @@ class LeadsController extends Controller
             }else{
                 return false;
             }
-        //}
+        }
     }
 }

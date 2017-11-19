@@ -11,6 +11,13 @@
 
 Configure a base de dados no arquivo `.env`
 
-Após isso é só migrar a base de dados e ser feliz :)
+- Instale o composer `composer install`
+
+- Migre a base de dados `php artisan migrate --seed`
+
+Inicie o projeto `php artisan serve`
+
+Vá até a http://127.0.0.1:8000/
+
 
 PS: Não sou muito bom em Design e Copy heheheh.
